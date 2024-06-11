@@ -1,12 +1,14 @@
 import React from 'react'
+import { TiUserOutline } from "react-icons/ti";
+import "./Navbar.scss"
 
 const Navbar = () => {
   return (
-    <nav className='bg-gray-800 px-4 py-3 flex justify-between'>
-    <div className='flex-items-center text-xl'>
-        <span className='text-white font-semibold'>BandWidth</span>
+    <div>
+        <button className='navbar-login-btn'>
+        <TiUserOutline />
+        </button>
     </div>
-    </nav>
   )
 }
 
