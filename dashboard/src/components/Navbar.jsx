@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <div>
         <button className='navbar-login-btn'>
-        <TiUserOutline />
+        <TiUserOutline size={24}/>
         </button>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
