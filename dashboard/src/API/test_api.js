@@ -1,4 +1,4 @@
-const { Client } = require('@elastic/elasticsearch');
+import {Client} from "@elastic/elasticsearch";
 const client = new Client({
     node: 'https://192.168.0.19:9200/',
     auth: {
@@ -18,4 +18,4 @@ const searchResult = await client.search({
 });
 
 console.log(searchResult.hits.hits)
-
+console.log("Done XD")
