@@ -43,7 +43,7 @@ const Sidebar = () => {
       ref={navbarRef}
     >
       <div className="sidebar-top">
-        <div className="sidebar-brand">
+        <div className="sidebar-brand                     ">
           <img src={theme === LIGHT_THEME ? LogoBlue : LogoWhite} alt="" />
           <span className="sidebar-brand-text">SFI Dashboard</span>
         </div>
