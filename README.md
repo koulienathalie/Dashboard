@@ -6,4 +6,4 @@
 ## Collaborators
 
 - [Koulie](https://github.com/koulienathalie)
-- [Josoa](https://github.com/Josoa886)
+- [Josoa](https://github.com/josoavj)
